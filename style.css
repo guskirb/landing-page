@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    max-height: 300px;
+    max-width: auto;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.upper {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #40856f;
+    justify-content: center;
+    padding: 50px;
+}
+
+.uppertext {
+    display: flex;
+    flex-flow: column;
+    color: #ffffff;
+}
+
+.uppermiddle {
+    display: flex;
+    flex-flow: column;
+    background-color: #ffffff;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+}
+
+.text {
+    color: #40856f;
+}
+
+.pics {
+    display: flex;
+    flex-flow: row;
+    gap: 50px;
+}
