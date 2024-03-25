@@ -1,8 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "roboto", sans-serif;
 }
 
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
 .logo{
     max-height: 70px;
     padding: 0px;
@@ -11,10 +30,11 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: #40856f;
+    background-color: #1f2937;
     align-items: center;
     gap: 20px;
-    padding-right: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 .links {
@@ -40,7 +60,7 @@ body {
 .upper {
     display: flex;
     flex-flow: row nowrap;
-    background-color: #40856f;
+    background-color: #1f2937;
     justify-content: center;
     padding: 50px;
     padding-bottom: 80px;
@@ -49,6 +69,7 @@ body {
 
 .upper img{
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .uppertext {
@@ -56,16 +77,27 @@ body {
     flex-flow: column;
     color: #ffffff;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+    width: 500px;
 }
 
-.button1 {
-    max-width: 100px;
-    height: 30px;
-    padding: 5px;
-    color: #ffffff;
+.uppertext h1 {
+    font-size: 48px;
     font-weight: bold;
-    background-color: #1cc590;
+}
+
+.uppertext p {
+    font-size: 18px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3882f6;
     border: none;
     border-radius: 5px;
 }
@@ -74,22 +106,60 @@ body {
     display: flex;
     flex-flow: column;
     background-color: #ffffff;
-    padding: 50px;
+    padding: 75px;
+    padding-bottom: 150px;
     align-items: center;
     gap: 50px;
 }
 
 .text {
-    color: #40856f;
+    color: #1f2937;
+}
+
+.uppermiddle h2 {
+    font-size: 36px;
 }
 
 .pics {
     display: flex;
     flex-flow: row;
     gap: 50px;
+    width: 250px;
+    justify-content: center;
 }
 
 .pics img{
     border-radius: 10px;
-    border: solid #1cc590;
+    border: solid #3882f6;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 160px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.lowermiddle {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+    padding-right: 450px;
+    padding-left: 450px;
+    gap: 10px;
+}
+
+.lowermiddle p {
+    font-size: 36px;
+    font-style: italic;
+    width: 790px;
+    text-align: left;
+}
+
+.lowermiddle h3 {
+    align-self: flex-end;
+    font-size: 25px;
 }
